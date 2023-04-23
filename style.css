@@ -1,0 +1,46 @@
+body {
+  background-color: #d5e1ef;
+  height: 100%;
+  font-family: "Outfit", sans-serif;
+}
+
+.card-container {
+  width: 320px;
+  height: 490px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 30px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-qr-code {
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.card-qr-code img {
+  max-width: 100%;
+}
+
+.card-text {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.card-text-title {
+  font-size: 22px;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.card-text-content {
+  color: #aeaeb6;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 20px;
+  padding: 0 8px;
+}
